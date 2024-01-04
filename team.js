@@ -1,1 +1,1 @@
-const persons = [];
+const persons = [ name = 'Marcello', surname = 'Sciulara', age = 25, city = 'Mezzojuso', hobby = 'Leggere', favoriteFood = 'Pizza', favoriteVideoGame = 'DS3', favoriteFilm = 'V per vendetta', favoriteBook = 'Nella quarta dimensione', petName = '' ];
