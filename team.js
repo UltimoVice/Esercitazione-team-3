@@ -1,6 +1,7 @@
 const persons = [ 
                   { name : 'Marcello', surname : 'Sciulara', age : 25, city : 'Mezzojuso', hobby : 'Leggere', favoriteFood : 'Pizza', favoriteVideoGame : 'Ds3', favoriteFilm : 'V per vendetta', favoriteBook : 'Nella quarta dimensione', petName : '' },
-                  {name : "Riccardo", surname : "Grassi", age : 27, city : "Livorno", hobby : "Gym", favoriteFood : "Cacciucco", favoriteVideoGame : "Skyrim", favoriteFilm : "Old boy", favoriteBook : "Neuromante", petName : "Ecate"},
+                  { name : "Riccardo", surname : "Grassi", age : 27, city : "Livorno", hobby : "Gym", favoriteFood : "Cacciucco", favoriteVideoGame : "Skyrim", favoriteFilm : "Old boy", favoriteBook : "Neuromante", petName : "Ecate"},
+                  { name :"mike", surname : "darmand", age : 27, city : "reggio calabria", hobby : "nothing", favoriteFood : "frutta", favoriteVideoGame : "street fighter", favoriteFilm : " vikings", favoriteBook : " ", petName : "gazelle"},
                 ];
 
 
@@ -21,4 +22,10 @@ function middleAge(persons) {
 
  middleAge(persons)
   
+// Mike
+function proprietarioAnim(){
+                 return persons.filter(person=>(person.petName)).map(person=>`${person.name} ${person.surname} ha un animale che si chiama ${person.petName}`)
+                };
+
+console.log(proprietarioAnim())
 
