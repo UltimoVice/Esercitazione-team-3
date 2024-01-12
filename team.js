@@ -23,7 +23,6 @@ persons.forEach(function(person) {
     console.log(`${person.surname} ${person.name}`);
 });
 
-
 const ageSorted = persons.sort((a, b) => {return a.age - b.age})
 console.log(ageSorted)
   
